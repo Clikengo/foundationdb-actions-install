@@ -5,7 +5,7 @@ const { mkdirSync, readFileSync, writeFileSync } = require('fs');
 
 function exec(cmd) {
     console.info(`> ${cmd}`);
-    execSync(cmd);
+    execSync(cmd, { stdio: "inherit" });
 }
 
 try {

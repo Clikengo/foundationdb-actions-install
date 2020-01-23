@@ -60,7 +60,7 @@ const { mkdirSync, readFileSync, writeFileSync } = __webpack_require__(747);
 
 function exec(cmd) {
     console.info(`> ${cmd}`);
-    execSync(cmd);
+    execSync(cmd, { stdio: "inherit" });
 }
 
 try {
