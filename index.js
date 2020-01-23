@@ -38,8 +38,8 @@ try {
             console.log(cfg);
             exec(`net start fdbmonitor`);
             exec(`sleep 5`);
-            exec(`"C:\\Program Files\\foundationdb\\bin\\fdbcli.exe" --exec 'status'`);
-            exec(`"C:\\Program Files\\foundationdb\\bin\\fdbcli.exe" --exec 'configure new single ssd'`);
+            exec(`"C:\\Program Files\\foundationdb\\bin\\fdbcli.exe" --exec "status"`);
+            exec(`"C:\\Program Files\\foundationdb\\bin\\fdbcli.exe" --exec "configure new single ssd"`);
             exec(`sleep 5`);
             console.log("::add-path::C:\\Program Files\\foundationdb\\bin");
             break;
