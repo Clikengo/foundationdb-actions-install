@@ -1,4 +1,4 @@
-name: Install FDB
+name: Install Foundation DB
 description: Install foundationdb
 branding:
   icon: database
