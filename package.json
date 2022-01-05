@@ -1,6 +1,6 @@
 {
   "name": "foundationdb-actions-install",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Github Action for installing foundationdb",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Clikengo/foundationdb-actions-install.git"
+    "url": "git+https://github.com/khouari1/foundationdb-actions-install.git"
   },
   "keywords": [
     "actions",
@@ -16,13 +16,14 @@
     "install"
   ],
   "author": "Vincent Rouillé <v.rouille@clikengo.com>",
+  "contributors": ["Karim Houari <khouari1@gmail.com>"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Clikengo/foundationdb-actions-install/issues"
+    "url": "https://github.com/khouari1/foundationdb-actions-install/issues"
   },
-  "homepage": "https://github.com/Clikengo/foundationdb-actions-install#readme",
+  "homepage": "https://github.com/khouari1/foundationdb-actions-install#readme",
   "dependencies": {
-    "@actions/core": "^1.2.6"
+    "@actions/core": "^1.6.0"
   },
   "devDependencies": {
     "@zeit/ncc": "^0.20.5"
