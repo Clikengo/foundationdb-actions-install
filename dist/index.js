@@ -480,7 +480,7 @@ function exec(cmd) {
 try {
     const version = core.getInput('version');
     console.log(`Installing foundationdb ${version} (${os.platform()})!`);
-    let base_url = `https://github.com/apple/foundationdb/releases/tag/${version}`;
+    let base_url = `https://github.com/apple/foundationdb/releases/download/${version}`;
     switch (os.platform()) {
         case 'linux': {
             let client_url = `${base_url}/foundationdb-clients_${version}-1_amd64.deb`;
