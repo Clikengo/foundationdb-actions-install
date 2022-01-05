@@ -16,14 +16,16 @@
     "install"
   ],
   "author": "Vincent Rouillé <v.rouille@clikengo.com>",
-  "contributors": ["Karim Houari <khouari1@gmail.com>"],
+  "contributors": [
+    "Karim Houari <khouari1@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/khouari1/foundationdb-actions-install/issues"
   },
   "homepage": "https://github.com/khouari1/foundationdb-actions-install#readme",
   "dependencies": {
-    "@actions/core": "^1.6.0"
+    "@actions/core": "^1.2.6"
   },
   "devDependencies": {
     "@zeit/ncc": "^0.20.5"
